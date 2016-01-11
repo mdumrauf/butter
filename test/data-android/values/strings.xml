@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+  <string name="LOGIN_TEXT_LOGIN">Login</string>
+  <string name="LOGIN_TEXT_PASSWORD">Password</string>
+  <string name="LOGIN_FIRSTNAME">First Name</string>
+
+</resources>
