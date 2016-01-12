@@ -65,4 +65,22 @@ describe('butter', () => {
 
   });
 
+  describe('#output', () => {
+
+    it('should output the expected csv', (done) => {
+
+      Bluebird.all([
+        fs.readFileAsync(path.resolve(__dirname, 'data-android', 'output.csv'), { encoding: 'UTF-8' }),
+        Butter.toCsv()
+      ])
+      .spread((e1, e2) => _.isEqual(e1, e2))
+      .then((result) => {
+        result.should.be.eql(true);
+      })
+      .then(done, done);
+
+    });
+
+  });
+
 });
