@@ -1,0 +1,4 @@
+/* Some useful comments */
+"LOGIN_TEXT_LOGIN" = "Login";
+"LOGIN_TEXT_PASSWORD" = "Password";
+"LOGIN_FIRSTNAME" = "First Name";

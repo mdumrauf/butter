@@ -92,5 +92,6 @@ const _testStrategy = (strategy, defaultLang) => {
 describe('butter', () => {
 
   _testStrategy('android', 'default');
+  _testStrategy('ios', 'en');
 
 });
